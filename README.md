@@ -1,5 +1,8 @@
 # RSSReader
 
+![Table of a demo feed](https://holland.pk/uptow/i4/27e2317ad14c0ebf6a2cbb37c5ac769e.jpg)
+![Webview loading the link of a single entry](https://holland.pk/uptow/i4/487d0362aa317cab28ff59130d67e4e5.jpg)
+
 A simple Android RSS Reader app that downloads and parses any online RSS XML file asynchronously and display all feeds contained in a table. (A feed is hardcoded into the project for demo purpose)
 
 # Getting Started

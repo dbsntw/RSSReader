@@ -55,9 +55,9 @@ public class FeedItem {
     
 ```
 # Other demo features and functionality
-* Displaying the feed with a RecyclerView (with a neat & reusable card view)
+* Displaying the feed with a RecyclerView (with neat & reusable CardViews)
 * Swipe-to-refresh
-* Displaying the feed item's link with a WebView page
+* Opening any feed item's link with a WebView
 
 # Other possibilities
 * Porting the RecyclerView to a fragment would allow the embedding of the table in a more complexed UI (Reasonable for tablet UI, less so for phone)

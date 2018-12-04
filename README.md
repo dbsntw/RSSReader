@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements FetchFeedDelegate
 ```
 FetchFeedStreamTask.FetchFeedByURL(this, new URL("https://www.wsj.com/xml/rss/3_7085.xml"));
 ```
-# Lightweight Feed data model
+# Lightweight Feed & FeedItem data model
 
 ```
 public class Feed {
@@ -47,4 +47,12 @@ public class FeedItem {
 }
     
 ```
+# Other demo features and functionality
+* Displaying the feed with a RecyclerView (with a neat & reusable card view)
+* Swipe-to-refresh
+* Displaying the feed item's link with a WebView page
+
+# Other possibilities
+* Porting the RecyclerView to a fragment would allow the embedding of the table in a more complexed UI (Reasonable for tablet UI, less so for phone)
+
 

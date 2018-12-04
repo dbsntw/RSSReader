@@ -5,6 +5,10 @@
 
 A simple Android RSS Reader app that downloads and parses any online RSS XML file asynchronously and display all feeds contained in a table. (A feed is hardcoded into the project for demo purpose)
 
+# Design Considerations
+* Easy-to-use API that can fetch a RSS feed and return a lightweight data object for consumption.
+* Neat CardView layout that can be reused for similar content in different view containers. 
+
 # Getting Started
 
 1. The handler that is responsible for receiving the RSS Feed data has to implement the FetchFeedDelegate interface.

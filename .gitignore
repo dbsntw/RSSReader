@@ -59,7 +59,7 @@ freeline.py
 freeline/
 freeline_project_description.json
 
-# fastlane
+# fastlane files
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots

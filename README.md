@@ -8,7 +8,7 @@ A simple Android RSS Reader app that downloads and parses any online RSS XML fil
 ```
 public class MainActivity extends AppCompatActivity implements FetchFeedDelegate
 ```
-2. Write your feed data handler code in the callback function of the interface.
+2. Write your feed data handler code by implementing the callback function defined by the interface.
 
 ```
 @Override
@@ -21,5 +21,30 @@ public class MainActivity extends AppCompatActivity implements FetchFeedDelegate
 ```
 FetchFeedStreamTask.FetchFeedByURL(this, new URL("https://www.wsj.com/xml/rss/3_7085.xml"));
 ```
+# Lightweight Feed data model
 
+```
+public class Feed {
+
+    String title;
+    String link;
+    String description;
+    String pubDate;
+    ArrayList<FeedItem> items;
+    ...
+}
+    
+public class FeedItem {
+
+    String title;
+    String description;
+    String link;
+    String author;
+    String imageUrl;
+    String pubDate;
+    String dateString;
+    ...
+}
+    
+```
 
